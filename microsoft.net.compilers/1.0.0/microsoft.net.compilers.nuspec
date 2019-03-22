@@ -13,7 +13,7 @@
 
 Supported Platforms:
 - .NET Framework 4.5</description>
-    <releaseNotes>Preview of Microsoft .NET Compiler Platform (Roslyn)</releaseNotes>
+    <releaseNotes>VS 2015 version of the Microsoft .NET Compiler Platform (Roslyn)</releaseNotes>
     <language>en-US</language>
     <tags>Roslyn CodeAnalysis Compiler CSharp VB VisualBasic Parser Scanner Lexer Emit CodeGeneration Metadata IL Compilation Scripting Syntax Semantics</tags>
   </metadata>
