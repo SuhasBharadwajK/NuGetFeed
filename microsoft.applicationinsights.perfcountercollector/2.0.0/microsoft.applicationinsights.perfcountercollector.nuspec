@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.ApplicationInsights.PerfCounterCollector</id>
+    <version>2.0.0</version>
+    <title>Application Insights Performance Counters Collector</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://go.microsoft.com/fwlink/?LinkID=391182</licenseUrl>
+    <projectUrl>http://go.microsoft.com/fwlink/?LinkId=392727</projectUrl>
+    <iconUrl>http://appanacdn.blob.core.windows.net/cdn/icons/aic.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Application Insights Performance Counters Collector allows you to send data collected by Performance Counters to Application Insights.</description>
+    <summary>Application Insights Performance Counters Collector is supported for .NET FX 4.0 and later.</summary>
+    <releaseNotes>For the release notes please follow http://go.microsoft.com/fwlink/?LinkId=535037</releaseNotes>
+    <copyright />
+    <tags>Analytics ApplicationInsights Telemetry ASP.NET ASMX Web Azure Server Services ASPX Websites Performance Counters Collection</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="Microsoft.ApplicationInsights" version="2.0.0" />
+        <dependency id="Microsoft.Diagnostics.Tracing.EventSource.Redist" version="1.1.24" />
+      </group>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Microsoft.ApplicationInsights" version="[2.0.0]" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

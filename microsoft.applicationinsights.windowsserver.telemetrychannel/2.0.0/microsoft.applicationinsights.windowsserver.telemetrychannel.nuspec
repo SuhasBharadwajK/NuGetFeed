@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel</id>
+    <version>2.0.0</version>
+    <title>Application Insights Telemetry Channel for Windows Server Applications</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://go.microsoft.com/fwlink/?LinkID=391182</licenseUrl>
+    <projectUrl>http://go.microsoft.com/fwlink/?LinkId=392727</projectUrl>
+    <iconUrl>http://appanacdn.blob.core.windows.net/cdn/icons/aic.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This nuget provides a telemetry channel to Application Insights Windows Server SDK that will preserve telemetry in offline scenarios. This is a dependent package, for the best experience please install the platform specific package.</description>
+    <releaseNotes>For the release notes please follow http://go.microsoft.com/fwlink/?LinkId=535037</releaseNotes>
+    <copyright>Copyright © Microsoft. All Rights Reserved.</copyright>
+    <tags>Analytics ApplicationInsights Telemetry</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="Microsoft.ApplicationInsights" version="[2.0.0]" />
+        <dependency id="Microsoft.Diagnostics.Tracing.EventSource.Redist" version="1.1.24" />
+      </group>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Microsoft.ApplicationInsights" version="[2.0.0]" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

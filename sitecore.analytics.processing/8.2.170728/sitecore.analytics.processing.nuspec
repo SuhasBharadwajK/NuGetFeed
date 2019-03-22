@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata minClientVersion="2.8">
+    <id>Sitecore.Analytics.Processing</id>
+    <version>8.2.170728</version>
+    <title>Sitecore.Analytics.Processing</title>
+    <authors>Sitecore Corporation A/S</authors>
+    <owners>Sitecore Corporation A/S</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <licenseUrl>https://doc.sitecore.net/~/media/C23E989268EC4FA588108F839675A5B6.pdf</licenseUrl>
+    <projectUrl>http://doc.sitecore.net/</projectUrl>
+    <iconUrl>https://mygetwwwsitecore.blob.core.windows.net/feedicons/sc-packages.png</iconUrl>
+    <description>Description : Sitecore.Analytics.Processing.</description>
+    <summary>Summary : Sitecore.Analytics.Processing.</summary>
+    <copyright>© 2017 Sitecore Corporation A/S. All rights reserved. Sitecore® is a registered trademark of Sitecore Corporation A/S.</copyright>
+    <language>en-US</language>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2">
+        <dependency id="Sitecore.Analytics.Core" version="[8.2.170728]" />
+        <dependency id="Sitecore.Analytics.Model" version="[8.2.170728]" />
+        <dependency id="Sitecore.Kernel" version="[8.2.170728]" />
+        <dependency id="Sitecore.Analytics.DataAccess" version="[8.2.170728]" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

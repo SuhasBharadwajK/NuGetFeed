@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.ApplicationInsights.Web</id>
+    <version>2.2.0</version>
+    <title>Application Insights for Web Applications</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>http://go.microsoft.com/fwlink/?LinkID=510709</licenseUrl>
+    <projectUrl>http://go.microsoft.com/fwlink/?LinkId=392727</projectUrl>
+    <iconUrl>http://appanacdn.blob.core.windows.net/cdn/icons/aic.png</iconUrl>
+    <description>Application Insights for .NET web applications. Privacy statement: https://go.microsoft.com/fwlink/?LinkId=512156</description>
+    <summary>Application Insights for .NET web applications.</summary>
+    <releaseNotes>For the release notes please follow http://go.microsoft.com/fwlink/?LinkId=535037</releaseNotes>
+    <copyright>Copyright © Microsoft. All Rights Reserved.</copyright>
+    <tags>Analytics ApplicationInsights Telemetry AppInsights</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="Microsoft.ApplicationInsights" version="[2.2.0]" />
+        <dependency id="Microsoft.Diagnostics.Tracing.EventSource.Redist" version="1.1.28" />
+        <dependency id="Microsoft.ApplicationInsights.WindowsServer" version="2.2.0" />
+      </group>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Microsoft.ApplicationInsights" version="[2.2.0]" />
+        <dependency id="Microsoft.ApplicationInsights.WindowsServer" version="2.2.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

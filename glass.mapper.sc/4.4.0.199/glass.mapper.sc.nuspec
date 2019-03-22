@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Glass.Mapper.Sc</id>
+    <version>4.4.0.199</version>
+    <authors>Michael Edwards, Nathanael Mann</authors>
+    <owners>Michael Edwards</owners>
+    <licenseUrl>https://github.com/mikeedwards83/Glass.Mapper/blob/develop/License.txt</licenseUrl>
+    <projectUrl>http://glass.lu/</projectUrl>
+    <iconUrl>http://glass.lu/images/logo-50-new.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An ORM for Sitecore. Map item data from Sitecore straight onto objects. Allows you to map fields,
+      relationships and queries as well as supporting the Page Editor. Allows you to map data from 
+      Sitecore using the Castle Windsor DI Container.</description>
+    <releaseNotes>This is a pre-release version of the package.</releaseNotes>
+    <copyright>Copyright (C) by Michael Edwards</copyright>
+    <language>en-GB</language>
+    <tags>Glass Mapper Sitecore Glass.Mapper</tags>
+    <dependencies>
+      <dependency id="Glass.Mapper.Sc.Core" version="4.4.0.199" />
+    </dependencies>
+  </metadata>
+</package>

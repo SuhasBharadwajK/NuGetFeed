@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.ApplicationInsights.JavaScript</id>
+    <version>0.22.9-build00167</version>
+    <title>Application Insights API for JavaScript Applications</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://go.microsoft.com/fwlink/?LinkID=510709</licenseUrl>
+    <projectUrl>http://go.microsoft.com/fwlink/?LinkID=510710</projectUrl>
+    <iconUrl>http://appanacdn.blob.core.windows.net/cdn/icons/aic.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Application Insights API enables you to get insights into user behavior and monitor usage patterns for your JavaScript applications. Application Insights service collects the data, analyzes it and presents the results in the forms of graphs and reports in Application Insights portal in Microsoft Azure.</description>
+    <copyright>Copyright © 2013-2022, Microsoft. All rights reserved.</copyright>
+    <language>en-us</language>
+    <tags>Analytics Insights Telemetry JavaScript MDD Multi-Device ApplicationInsights Cordova Web</tags>
+  </metadata>
+</package>

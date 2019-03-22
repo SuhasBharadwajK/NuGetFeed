@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>RazorGenerator.Mvc</id>
+    <version>2.4.2</version>
+    <authors>RazorGenerator contributors</authors>
+    <owners>RazorGenerator contributors</owners>
+    <licenseUrl>http://razorgenerator.codeplex.com/license</licenseUrl>
+    <projectUrl>http://razorgenerator.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>MVC View engine that supports precompiled Razor views</description>
+    <releaseNotes>* v1.5.5:  Updated IsPhyicalPathsNewer to use case insensitive comparison</releaseNotes>
+    <tags>mvc razor</tags>
+    <dependencies>
+      <dependency id="WebActivatorEx" version="2.0.3" />
+      <dependency id="Microsoft.AspNet.Mvc" version="3.0.50813.1" />
+    </dependencies>
+  </metadata>
+</package>
